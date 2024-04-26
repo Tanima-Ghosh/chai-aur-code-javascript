@@ -17,8 +17,21 @@ let isLoggedIn = 1
 
 let booleanInLoggedIn = Boolean(isLoggedIn)
 
-console.log(booleanInLoggedIn)
+// console.log(booleanInLoggedIn)
 
 // 1 => true, 0 => false
 // "" => false
 // "john" => true
+
+let gameCounter = 100;
+gameCounter++
+++gameCounter
+console.log(gameCounter);
+
+let x = 3;
+let y = x++
+console.log(y);
+
+let a = 5;
+let b =  ++a
+console.log(b);
